@@ -1,0 +1,6 @@
+.main-layout {
+    margin-left: 200px; // width of sidenav
+    padding: 80px 20px 60px; // top padding = header height + gap; bottom = footer height
+    min-height: calc(100vh - 100px); // full height minus header + footer
+    background-color: #f4f4f4;
+  }

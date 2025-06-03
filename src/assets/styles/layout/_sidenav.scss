@@ -1,0 +1,25 @@
+.sidenav {
+    width: 200px;
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding-top: 60px; // height of header
+    position: fixed;
+    top: 60px;
+    bottom: 40px; // height of footer
+    left: 0;
+    overflow-y: auto;
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        padding: 1rem;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #3d566e;
+        }
+      }
+    }
+  }
